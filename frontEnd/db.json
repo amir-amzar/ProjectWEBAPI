@@ -1,0 +1,98 @@
+{
+  "admin": [
+    {
+      "id": 2,
+      "email": "amirkuptm@gmail.com",
+      "password": "amir123"
+    },
+    {
+      "id": 3,
+      "email": "iqbalkuptm@gmail.com",
+      "password": "iqbal123"
+    },
+    {
+      "id": 4,
+      "email": "nasuhakuptm@gmail.com",
+      "password": "nasuha123"
+    },
+    {
+      "email": "amiramzarismail@gmail.com",
+      "password": "123",
+      "id": 11
+    }
+  ],
+  "student": [
+    {
+      "id": 1,
+      "email": "adam@gmail.com",
+      "password": "adam123"
+    },
+    {
+      "id": 2,
+      "email": "tasya@gmail.com",
+      "password": "tasya123"
+    },
+    {
+      "id": 3,
+      "email": "sarah@gmail.com",
+      "password": "sarah123"
+    },
+    {
+      "id": 4,
+      "email": "rizal@gmail.com",
+      "password": "rizal123"
+    },
+    {
+      "id": 5,
+      "email": "amirul@gmail.com",
+      "password": "amirul123"
+    },
+    {
+      "id": 6,
+      "email": "maria@gmail.com",
+      "password": "maria123"
+    },
+    {
+      "id": 7,
+      "email": "hana@gmail.comt",
+      "password": "hana123"
+    }
+  ],
+  "booking": [
+    {
+      "id": 1,
+      "name": "Adam Hafiz",
+      "date": "2022-02-01",
+      "time": "17:34:54",
+      "reason": "Futsal"
+    },
+    {
+      "id": 2,
+      "name": "Adam Hafiz",
+      "date": "2022-02-01",
+      "time": "17:34:54",
+      "reason": "Futsal"
+    },
+    {
+      "id": 3,
+      "name": "Adam Hafiz",
+      "date": "2022-02-01",
+      "time": "17:34:54",
+      "reason": "Futsal"
+    },
+    {
+      "id": 4,
+      "name": "Adam Hafiz",
+      "date": "2022-02-01",
+      "time": "17:34:54",
+      "reason": "Futsal"
+    },
+    {
+      "id": 5,
+      "name": "Adam Hafiz",
+      "date": "2022-02-01",
+      "time": "17:34:54",
+      "reason": "Futsal"
+    }
+  ]
+}

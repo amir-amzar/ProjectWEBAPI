@@ -1,0 +1,22 @@
+<body>
+  <header>
+      <h1>BOOKING COURT MANAGEMENT SYSTEM</h1>
+  </header>
+  <main>
+
+      <form [formGroup]="registerForm" (ngSubmit)="signUp()" id="signup_form" class="form_class" action="signup/signup-access.php" method="post">
+          <div class="form_div">
+              <label>Email:</label>
+              <input formControlName="email" class="form-control" class="field_class" name="signup_txt" type="text" placeholder="your email" autofocus>
+              <label>Password:</label>
+              <input formControlName="password" class="form-control" id="pass" class="field_class" name="password_txt" type="password" placeholder="insert your password">
+              <button class="submit_class" type="submit" form="signup_form">SIGN UP</button>
+              <button class="submit_class" type="submit" form="signup_form" routerLink="/login">LOGIN</button>
+          </div>
+      </form>
+  </main>
+  <footer>
+      <p> <a href="#"></a></p>
+  </footer>
+</body>
+

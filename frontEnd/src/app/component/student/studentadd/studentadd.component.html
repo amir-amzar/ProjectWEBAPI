@@ -1,0 +1,19 @@
+<app-navbar></app-navbar>
+<h2 class="head">Add STUDENT</h2>
+<form [formGroup]="formValue" >
+  <div class="mb-3">
+    <label class="form-label"><b>email:</b></label>
+    <input type="text" class="form-control" placeholder="email" formControlName="email" size="50">
+  </div>
+
+  <div class="mb-3">
+    <label class="form-label"><b>password:</b></label>
+    <input type="text" class="form-control" formControlName="password" placeholder="password" size="50">
+  </div>
+
+  <div class="mb-3">
+    <button (click)="postStudentDetails()" type="submit" class="btn btn-primary">ADD</button>
+    &nbsp;
+    <button  type="submit" class="btn btn-primary" routerLink="/studentlist">BACK</button>
+  </div>
+</form>

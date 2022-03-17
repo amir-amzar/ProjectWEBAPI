@@ -1,0 +1,31 @@
+<app-navbar></app-navbar>
+<br>
+<br>
+
+<h2>{{title}}</h2>
+<button class="button button1" ><a href="adminlist">ADMIN DATA</a></button>
+<button class="button button1" ><a href="studentlist">STUDENT DATA</a></button>
+<button class="button button1" ><a href="bookinglist">BOOKING DATA</a></button>
+<table>
+  <thead>
+    <th>ID</th>
+    <th>NAME</th>
+    <th>DATE</th>
+    <th>TIME</th>
+    <th>REASON</th>
+    <th>ACTION</th>
+  </thead>
+<tbody>
+  <tr *ngFor = 'let booking of booking'>
+    <td style="color:black" >{{booking.id}}</td>
+    <td style="color:black">{{booking.name}}</td>
+    <td style="color:black">{{booking.date}}</td>
+    <td style="color:black">{{booking.time}}</td>
+    <td style="color:black" >{{booking.reason}}</td>
+    <td>
+      <a class="btn btn-sm btn-success">Accept</a>
+      <a  class="btn btn-sm btn-danger" (click)="delBooking(booking)">Delete</a>
+    </td>
+  </tr>
+</tbody>
+

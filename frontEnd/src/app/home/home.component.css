@@ -1,0 +1,41 @@
+@import url(https://bootswatch.com/5/lux/bootstrap.min.css);
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: lightgreen;
+}
+header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+h1 {
+  letter-spacing: 1.5vw;
+  font-family: 'system-ui';
+  text-transform: uppercase;
+  text-align: center;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 87vh;
+  width: 100%;
+  background: url("https://img2.wallspic.com/previews/3/7/9/7/3/137973/137973-fifa-soccer_ball-graphics-football-stadium-x750.jpg") no-repeat center center;
+  background-size: cover;
+}
+.form_class {
+  width: 500px;
+  padding: 40px;
+  border-radius: 8px;
+  background-color: white;
+  font-family: 'system-ui';
+  box-shadow: 5px 5px 10px rgb(0,0,0,0.3);
+}
+
